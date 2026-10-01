@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: expresiones-faciales-probando
+    name: expresiones-faciales-3
     env: python
     region: oregon
     plan: free
