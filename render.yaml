@@ -1,11 +1,11 @@
 services:
   - type: web
     name: expresiones-faciales-3
-    env: python
-    region: oregon
+    runtime: python
+    repo: https://github.com/droidfnf/expresiones-faciales
     plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
