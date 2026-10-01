@@ -3,3 +3,4 @@ fer==25.10.3
 opencv-python-headless==4.11.0.86
 gunicorn==21.2.0
 numpy>=1.26.0,<2.0.0
+tensorflow>=2.12.0
